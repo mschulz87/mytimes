@@ -1,3 +1,20 @@
+body {
+  margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}  
+
 header {
   display: flex;
   align-items: center;
@@ -11,6 +28,13 @@ header {
   font-size: 14px;
   font-weight: bold;
 }
+
+.content {
+  display: flex;
+  width: 1232;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}  
 
 div {
   border: 1px solid black;
@@ -35,8 +59,20 @@ header nav {
   color: MediumAquamarine;
 }
   
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right:12 px;
+}  
+  
 .column.large {
   width: 630px;
+}
+  
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
   
 .column.medium {
@@ -60,7 +96,7 @@ header nav {
   text-align: center;
 }
   
-.image-content {
+.lead-story .image-content {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
   width: 630px;
   margin-top: 0;
