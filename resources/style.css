@@ -12,9 +12,25 @@ header {
   font-weight: bold;
 }
 
+div {
+  border: 1px solid black;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+
 header nav {
   padding-right: 40px;
 }  
 
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}  
+  
 .logo span {
   color: MediumAquamarine;
+}
