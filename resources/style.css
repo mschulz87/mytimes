@@ -50,10 +50,6 @@ header {
   padding-top: 116px;
 }  
 
-div {
-  border: 1px solid black;
-}
-
 nav span {
   display: inline-block;
   padding: 20px 10px;
